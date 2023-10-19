@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:class_work/my_homepage.dart';
 import 'package:flutter/material.dart';
 
@@ -10,12 +12,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: 
-        MyHomePage(),
-        );
-      
-    
+      home: MyHomePageWidget(),
+    );
   }
 }
